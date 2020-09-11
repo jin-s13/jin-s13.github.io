@@ -1,1 +1,282 @@
-Hello World
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="index,follow">
+    <meta name="keywords" content="Sheng Jin; 金晟; Computer Vision; Deep Learning; Human Pose Estimation; The University of Hong Kong; Tsinghua University; SenseTime">
+    <link rel="author" href="https://jin-s13.github.io/">
+    <title>Sheng Jin's Homepage</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-177752133-1', 'https://jin-s13.github.io');
+  ga('send', 'pageview');
+</script>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1><a href="#">Sheng Jin</a></h1>
+            <br>
+            <div class="clear"></div>
+        </div>
+        
+        <div id="body">
+            <div id="aboutme">
+                <h2>About Me</h2>
+                <table class="table-bio">
+                    <td class="col-7">
+                    <p>
+                        Sheng Jin is currently a Phd candidate (2020-present) at the University of Hong Kong (HKU), advised by Dr. <a href="http://luoping.me/">Ping Luo</a> and co-supervised by Prof. <a href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>. 
+                        He is also a part-time researcher (2020-present) at <a href="https://www.sensetime.com/?lang=en-us">SenseTime Research</a>.
+                        In 2020, he received his master's degree in the Department of Automation at Tsinghua University, advised by Prof. <a href="https://scholar.google.com/citations?user=GL9M37YAAAAJ&hl=en">Changshui Zhang</a>.
+                        In 2017, he received the B.Eng. degree with highest honor (Outstanding Graduate Scholarships) from Tsinghua University.
+                        <br>
+                        <br>
+                        His research focus is on teaching machines/robots to see and understand human behaviors such as human body poses, actions, and human-machine interactions.
+                    </p>
+                    </td>
+                    <td class="col-3">
+                        <img src="./homepage_files/me.png">
+                    </td>
+                </table>
+            </div>
+
+
+            <div id="news">
+                <h2>News</h2>
+                <br>
+                    <ul>
+                        <li><font color="ff0000"> <strong><em>We are recruiting intern researchers in computer vision at SenseTime Research (Beijing). If you are interested in, please send your CV to my email.</em></strong></font></li>
+                        <br>
+                        <li>[2020-08] We have released <a href="https://github.com/open-mmlab/mmpose">MMPose</a> Toolbox v0.6.</li>    
+                        <br>
+                        <li>[2020-07] Two papers accepted by ECCV'2020.</li>       
+                        <br>
+                        <li>[2020-04] One paper accepted by TNNLS.</li>
+                        <br>
+                        <li>[2020-02] One paper accepted by AAAI'2020 <font color="#e86e14">(Oral)</font>.</li>    
+                        <br>
+                        <li>[2019-10] One paper accepted by ICCV'2019.</li>  
+                        <br>
+                        <li>[2019-06] One paper accepted by CVPR'2019.</li>  
+                        <br>
+                        <li>[2018-12] One paper accepted by NeurIPS'2018 <font color="#e86e14">(Spotlight)</font>.</li>  
+                        <br>
+                        <li>[2017-10] Our team won the 2nd places of the <a href="https://posetrack.net/workshops/iccv2017/">PoseTrack Challenge 2017</a> (<a href="https://posetrack.net/workshops/iccv2017/pdfs/BUTD.pdf"> Technical report</a> | <a href="https://posetrack.net/leaderboard.php">Leaderboard</a>: BUTDS and BUTD2 | <a href="https://www.youtube.com/watch?v=AL-8XCzRFo0">Demo</a>).</li>
+                        <br>
+                    </ul>
+            </div>
+
+            <div class="container">
+                <h2>Honors and Awards</h2>
+                <div>
+                    <ul>
+                        <li><b>Hong Kong PhD Fellowship (HKPF)</b>, 2020.</li>
+                        <br>
+                        <li><a href="https://vuhcs.github.io/vuhcs-2018/index.html/">CVPR'2018 Look Into Person (LIP) Challenge</a>, 2nd place (Oral presentation), 2018.</li>
+                        <br>
+                        <li><a href="https://posetrack.net/workshops/iccv2017/">ICCV'2017 PoseTrack Challenge</a>, 2nd place (Oral presentation), 2017.</li>
+                        <br>
+                        <li><b>Outstanding Graduate Scholarship</b>, Tsinghua University (top 1% in Tsinghua), 2017.</li>
+                        <br>
+                        <li><b>The Baosteel Excellent Student Scholarship</b>, 2016.</li>
+                        <br>
+                        <li>Zheng Weimin Scholarship for Comprehensive Excellence, Tsinghua University, 2016.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="publication">
+                <h2>Selected Publications</h2>
+                <table class="table-pub">
+                    <tr>
+                        <td class="col-3"><a href=""><img src="./homepage_files/WholeBody-logo.png"></a></td>
+                        <td>
+                            <div class="pub-info">
+                                <h6>Whole-Body Human Pose Estimation in the Wild</h6>
+                                <br>
+                                <b>Sheng Jin</b>, Lumin Xu, Jin Xu, Can Wang, Wentao Liu, Chen Qian, Wanli Ouyang, and Ping Luo
+                                <br>
+                                <br>
+                                <i>European Conference on Computer Vision (ECCV), 2020. </i>
+                                <br><br>
+                                [<a href="./papers/2007.11858.pdf">Paper</a>]&nbsp;[<a href="https://github.com/jin-s13/COCO-WholeBody">Dataset</a>]
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="col-3"><a href=""><img src="./homepage_files/HGG-logo.png"></a></td>
+                        <td>
+                            <div class="pub-info">
+                                <h6>Differentiable Hierarchical Graph Grouping for Multi-Person Pose Estimation</h6>
+                                <br>
+                                <b>Sheng Jin</b>, Wentao Liu, Enze Xie, Wenhai Wang, Chen Qian, Wanli Ouyang, and Ping Luo
+                                <br>
+                                <br>
+                                <i>European Conference on Computer Vision (ECCV), 2020. </i>
+                                <br><br>
+                                [<a href="./papers/2007.11864.pdf">Paper</a>]&nbsp;
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="col-3"><a href=""><img src="./homepage_files/TRB-logo.png"></a></td>
+                        <td>
+                            <div class="pub-info">
+                                <h6>TRB: A Novel Triplet Representation for Understanding 2D Human Body</h6>
+                                <br>
+                                Haodong Duan, Kwan-Yee Lin, <b>Sheng Jin</b>, Wentao Liu, Chen Qian, Wanli Ouyang
+                                <br>
+                                <br>
+                                <i>IEEE International Conference on Computer Vision (ICCV), 2019, <a>Oral presentation</a>.</i>
+                                <br><br>
+                                [<a href="./papers/1910.11535">Paper</a>]&nbsp;[<a href="https://github.com/kennymckormick/Triplet-Representation-of-human-Body">Dataset</a>]
+                            </div>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td class="col-3"><a href=""><img src="./homepage_files/Rapnets-logo.png"></a></td>
+                        <td>
+                            <div class="pub-info">
+                                <h6>Robust Few-Shot Learning for User-Provided Data</h6>
+                                <br>
+                                Jiang Lu, <b>Sheng Jin</b>, Jian Liang, and Changshui Zhang
+                                <br>
+                                <br>
+                                <i>IEEE Transactions on Neural Networks and Learning Systems (TNNLS).</i>
+                                <br><br>
+                                [<a href="./papers/TNNLS_2020_Robust.pdf">Paper</a>]&nbsp;
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="col-3"><a href=""><img src="./homepage_files/RLDuet-logo.png"></a></td>
+                        <td>
+                            <div class="pub-info">
+                                <h6>RL-Duet: Online Music Accompaniment Generation Using Deep Reinforcement Learning</h6>
+                                <br>
+                                Nan Jiang, <b>Sheng Jin</b>, Zhiyao Duan, Changshui Zhang
+                                <br>
+                                <br>
+                                <i>AAAI Conference on Artificial Intelligence  (AAAI), 2020, <a> Oral presentation</a>.</i>
+                                <br><br>
+                                [<a href="./papers/2002.03082.pdf">Paper</a>]&nbsp;[<a href="https://drive.google.com/file/d/1Bm-iFfAcTbbjJUNq1aB8G9p3eugG5ulV/view?usp=sharing">Demo</a>]
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="col-3"><a href=""><img src="./homepage_files/PGG-logo.png"></a></td>
+                        <td>
+                            <div class="pub-info">
+                                <h6>Multi-person Articulated Tracking with Spatial and Temporal Embeddings</h6>
+                                <br>
+                                <b>Sheng Jin</b>, Wentao Liu, Wanli Ouyang, Chen Qian
+                                <br>
+                                <br>
+                                <i>Conference on Computer Vision and Pattern Recognition (CVPR), 2019.</i>
+                                <br><br>
+                                [<a href="./papers/1903.09214.pdf">Paper</a>]&nbsp;[<a href="https://youtu.be/a7qNUm0Ne7c">Demo</a>]
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="col-3"><a href=""><img src="./homepage_files/HACL-logo.png"></a></td>
+                        <td>
+                            <div class="pub-info">
+                                <h6>Hierarchical Automatic Curriculum Learning: Converting a Sparse Reward Navigation Task into Dense Reward</h6>
+                                <br>
+                                Nan Jiang, <b>Sheng Jin</b>, Changshui Zhang
+                                <br><br>
+                                <i>Neurocomputing, 2019.</i>
+                                <br><br>
+                                [<a href="./papers/Neurocomputing_2019_Jiang.pdf">Paper</a>]&nbsp;
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="col-3"><a href=""><img src="./homepage_files/EnEsCTC-logo.png"></a></td>
+                        <td>
+                            <div class="pub-info">
+                                <h6>Connectionist Temporal Classification with Maximum Entropy Regularization</h6>
+                                <br>
+                                Hu Liu, <b>Sheng Jin</b>, Changshui Zhang
+                                <br><br>
+                                <i>Conference on Neural Information Processing Systems (NeurIPS), 2018, <font color="#e86e14">Spotlight</font>. </i>
+                                <br><br>
+                                [<a href="./papers/7363-connectionist-temporal-classification-with-maximum-entropy-regularization.pdf">Paper</a>]&nbsp;[<a href="./homepage_files/EnEsCTC-poster.pdf">Poster</a>]&nbsp;[<a href="https://github.com/liuhu-bigeye/enctc.crnn">Code</a>]
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="col-3"><a href=""><img src="./homepage_files/BUTD-logo.png"></a></td>
+                        <td>
+                            <div class="pub-info">
+                                <h6>Towards Multi-Person Pose Tracking: Bottom-up and Top-down Methods</h6>
+                                <br>
+                                <b>Sheng Jin</b>, Xujie Ma, Zhipeng Han, Yue Wu, Wei Yang, Wentao Liu, Chen Qian, Wanli Ouyang
+                                <br><br>
+                                <i>International Conference on Computer Vision (ICCV) PoseTrack Workshop, 2017.</i>
+                                <br><br>
+                                [<a href="./papers/BUTD.pdf">Paper</a>]&nbsp;[<a href="https://posetrack.net/leaderboard.php">Leaderboard</a>](BUTDS and BUTD2)&nbsp;[<a href="https://www.youtube.com/watch?v=AL-8XCzRFo0">Demo</a>]
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="projects">
+                <h2>Projects</h2>
+                <table class="table-pub">
+                    <tr>
+                        <td class="col-3"><a href=""><img src="./homepage_files/mmpose-logo.png"></a></td>
+                        <td>
+                            <div class="pub-info">
+                                <h6>MMPose Toolbox</h6>
+                                <br><br>
+                                <a href="https://github.com/open-mmlab/mmpose">MMPose</a> is an open-source toolbox for pose estimation based on PyTorch, which is a part of the <a href="https://github.com/open-mmlab">OpenMMLab</a> project.
+                                <br><br>
+                                [<a href="https://github.com/open-mmlab/mmpose">Project</a>]&nbsp;
+                            </div>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>
+
+            <div id="contacts">
+                <h2>Contacts</h2>
+                <i class="fa fa-envelope"></i> js20 at connect.hku.hk  | jinsheng [at] sensetime.com 
+            </div>
+                
+            <div class="col-md-3 text-center">
+                <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=tt&d=amNpZ1mr8noV_wMpMl2UPDW_8iZ7-FTLlK3f_zuftUc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+            </div>
+                
+        </div>
+        <div class="clear"></div>
+    </div>
+
+
+</body>
+
+</html>
