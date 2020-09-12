@@ -292,12 +292,20 @@ li ul {
 	margin-bottom: 10px;
 }
 
+.col-1 {
+	width: 10%;
+}
+
 .col-3 {
 	width: 30%;
 }
 
 .col-7 {
 	width: 70%;
+}
+
+.col-9 {
+	width: 90%;
 }
 
 .table-bio td {
